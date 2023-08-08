@@ -296,5 +296,9 @@ text-decoration: none;
 .live-text:hover {
 background-color: #c71f1f;
 }
-
-
+.no-highlight{
+  user-select: none; // chrome and Opera
+  -moz-user-select: none; // Firefox
+  -webkit-text-select: none; // IOS Safari
+  -webkit-user-select: none; // Safari
+}
